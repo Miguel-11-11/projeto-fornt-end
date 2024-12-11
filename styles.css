@@ -1,0 +1,204 @@
+/*CHAT GPT DAQUI
+/* Estilo para alinhar os botões no fundo do quadro */
+section#produtos article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Espaço entre os elementos */
+    height: 100%; /* Garante que o container preencha todo o espaço */
+    padding: 16px; /* Opcional: Ajusta o espaçamento interno */
+    border: 1px solid #ddd; /* Exemplo de borda */
+    background-color: white; /* Fundo branco do quadro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombras para destacar */
+  }
+  
+  section#produtos article img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse o container */
+    height: auto; /* Mantém a proporção da imagem */
+  }
+  
+  section#produtos article button {
+    margin-top: auto; /* Empurra o botão para o final */
+    align-self: center; /* Centraliza o botão horizontalmente */
+    background-color: #00aeff; /* Cor do botão */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda */
+    padding: 10px 16px; /* Tamanho do botão */
+    cursor: pointer; /* Cursor de clique */
+  }
+  
+  section#produtos article button:hover {
+    background-color: #0056b3; /* Cor do botão ao passar o mouse */
+  }
+/*ATÈ AQUI
+
+
+/* Estilo para alinhar os elementos no artigo */
+section#produtos article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 16px;
+  border: 1px solid #ddd;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para o preço */
+section#produtos article .preco {
+  font-size: 16px; /* Tamanho do texto do preço */
+  font-weight: bold; /* Destacar o preço */
+  color: #333; /* Cor do texto */
+  margin: 8px 0; /* Espaçamento em volta do preço */
+  text-align: center; /* Centraliza o preço */
+}
+
+/* Estilo para a imagem */
+section#produtos article img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilo para o botão */
+section#produtos article button {
+  margin-top: auto; /* Empurra o botão para o final */
+  align-self: center;
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+/* Hover no botão */
+section#produtos article button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+/*Estilo global */
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    columns: #333;
+}
+
+/* Cabeçalho */
+header{
+    background-color: #0078d7;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+}
+h2{
+    text-align: center
+}
+header h1{
+    margin: 0;
+    font: size 2.5em;
+}
+nav ul{
+    list-style: nonr;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    margin: 0 15px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+/* Seções principais */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+#banner {
+    text-align: center;
+    background-color: #e7f3ff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#banner img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Produtos */
+#produtos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+#produtos article {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#produtos img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+#produtos button {
+    background-color: #0078d7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#produtos button:hover {
+    background-color: #005fa3;
+}
+
+/* Sobre */
+#sobre {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+footer h2 {
+    margin-top: 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
